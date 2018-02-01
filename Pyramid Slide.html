@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Pyramid Slide </title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+	<div id = "whole">
+		<h1> Super Duper Pyramid Slide </h1>
+		
+		<div id = "outter_box">
+			<form id = "pyramid">
+				<table>
+					<tr>
+						<td>
+							Brick Symbol: 
+							<select style="margin-right:15px" name = "bricks" form = "pyramid" oninput = "printPyramid(this.value)">
+							  <option value= "#"> # </option>
+							  <option value= "@"> @ </option>
+							  <option value= "X"> X </option>
+							  <option value= "$"> $ </option>
+							  <option value= "*"> * </option>
+							</select>
+						</td>
+						<td>
+							How high? 
+							<input type = "range" name = "pyramid_height" min = "1" max = "20" value="2" oninput = "printPyramid(this.value)">
+							<span id="test"></span>
+						</td>
+					</tr>
+				</table>
+			</form>
+			
+		<div id = "pyramid-display"> </div>	
+		</div>
+	</div> 
+	<script src="pyramid_slide.js">	</script>	
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+*{
+	font-family: "Bookman Old Style" ;
+}
+
+h1{
+	background-color: #00BF9E;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+form{
+	background-color: gray;
+	color: white;
+	padding: 15px;
+}
+
+table{
+	margin: auto;
+	padding: 10px;
+}
+
+#outter_box{
+	border-color: #00BF9E;
+	border-style: solid;
+    	border-width: 2px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#whole{
+	margin: 5%;
+	background-color: #F7F7F7;
+}
+
+#pyramid-display{
+	white-space: pre;
+	background-color: #EBEBEB;
+	color: #00BF9E;
+	padding-right: 40%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-weight: bold;
+	font-size:20px;
+	text-align: right;
+	border-color: #00BF9E;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    width: 150px;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 150px;
+    height: 3px;
+    background: #ddd;
+    border: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #00BF9E;
+    margin-top: -6px;
+}
+
+input[type=range]::-moz-range-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+}
+
+input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+    width: 300px;
+    height: 5px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 6px 0;
+
+    /*remove default tick marks*/
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #777;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+}
+input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+}
+
+input[type="select"]{
+	background: #EBEBEB;
+	border-radius: 5px;
+}
