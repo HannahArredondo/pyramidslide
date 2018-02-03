@@ -17,7 +17,7 @@
 		}
 
 		var outputDiv = document.getElementById('pyramid-display');
-		document.getElementById("test").innerHTML = form[1].value;
+		document.getElementById("height_num").innerHTML = form[1].value;
 		outputDiv.innerHTML = pyramid_final;
 	}
 		

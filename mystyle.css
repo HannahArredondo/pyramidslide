@@ -110,8 +110,3 @@ input[type=range]::-ms-thumb {
     border-radius: 50%;
     background: goldenrod;
 }
-
-input[type="select"]{
-	background: #EBEBEB;
-	border-radius: 5px;
-}
